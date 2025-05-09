@@ -3,16 +3,13 @@
 
 先决条件
 在继续安装之前，请确保您满足以下先决条件：
-
 安装了 Termux 的 Android 设备。你可以从 F-Droid 应用商店下载 Termux。
 稳定的互联网连接。
+
 安装步骤
 请按照以下步骤在 Termux 中安装 Docker：
-
 在您的 Android 设备上打开 Termux。
-
 通过运行以下命令更新和升级软件包：
-
 pkg update -y && pkg upgrade -y
 通过运行以下命令安装必要的依赖项：
 pkg install qemu-utils qemu-common qemu-system-x86_64-headless wget -y
